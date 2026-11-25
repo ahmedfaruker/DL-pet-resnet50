@@ -1,0 +1,12 @@
+{
+  "test_samples": 3669,
+  "accuracy": 0.9275006813845734,
+  "top5_accuracy": 0.99373126192423,
+  "precision_macro": 0.929068099957521,
+  "recall_macro": 0.9270837489022693,
+  "f1_macro": 0.9266146067754771,
+  "test_set_prediction_time_sec": 30.567294999957085,
+  "latency_ms_per_image_batch1": 6.1891609989106655,
+  "device": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "latency_ms_per_image_cpu": 113.51599999470636
+}

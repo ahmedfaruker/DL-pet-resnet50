@@ -64,3 +64,13 @@ def get_loaders():
         DataLoader(test_ds, shuffle=False, **kw),
         classes,
     )
+
+def class_species():
+    """Map class index -> 'cat'/'dog' using the dataset's own species annotation."""
+    ann = C.DATA_DIR / "oxford-iiit-pet" / "annotations" / "trainval.txt"
+    mapping = {}
+    for line in ann.read_text().splitlines():
+        if line and not line.startswith("#"):
+            _, class_id, species, _ = line.split()        # species: 1 = cat, 2 = dog
+            mapping[int(class_id) - 1] = "cat" if species == "1" else "dog"
+    return mapping

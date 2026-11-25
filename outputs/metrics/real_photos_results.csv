@@ -1,0 +1,7 @@
+filename,true_label,pred_label,confidence,correct,in_top3,species_correct,top3
+01_street_cat_busstop.jpg,unknown,Maine Coon,0.7905,False,False,True,Maine Coon (0.79); Abyssinian (0.01); Keeshond (0.01)
+02_street_dog_park.png,unknown,American Pit Bull Terrier,0.1553,False,False,True,American Pit Bull Terrier (0.16); German Shorthaired (0.15); Staffordshire Bull Terrier (0.09)
+03_grey_longhair_front.jpg,British Longhair,Persian,0.6617,False,False,True,Persian (0.66); Ragdoll (0.07); British Shorthair (0.06)
+04_tabby_street_topview.jpg,unknown,Egyptian Mau,0.4073,False,False,True,Egyptian Mau (0.41); Bengal (0.14); Abyssinian (0.13)
+05_longhair_cat_indoor_far.jpg,unknown,Ragdoll,0.2908,False,False,True,Ragdoll (0.29); Birman (0.22); Bengal (0.05)
+06_grey_longhair_side_backlit.jpg,British Longhair,Persian,0.8204,False,False,True,Persian (0.82); Birman (0.04); Ragdoll (0.03)
