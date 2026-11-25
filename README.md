@@ -1,6 +1,6 @@
 # Evcil Hayvan Irkı Sınıflandırıcı — Oxford-IIIT Pet üzerinde ResNet-50
 
-Bilgisayarlı Görü dersi ödevi: transfer learning (ImageNet ön eğitimli ResNet-50) ile 37 kedi ve köpek
+Derin Öğrenme dersi ödevi: transfer learning (ImageNet ön eğitimli ResNet-50) ile 37 kedi ve köpek
 ırkının ince taneli (fine-grained) sınıflandırması. Eğitilen model Gradio web uygulaması olarak sunulmuştur.
 
 ## Sonuçlar (resmi test bölümü, 3669 görüntü)
